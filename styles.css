@@ -17,7 +17,6 @@ a {
 }
 
 .left {
-  float: left;
 }
 
 .left a {
@@ -195,4 +194,58 @@ a:hover {
 .icon:hover {
   color: black;
   cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .dark {
+    position: absolute;
+    left: 63%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    position: absolute;
+    left: 38%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+  }
+
+  .mic {
+    margin-left: 135px;
+  }
+
+  .search {
+    position: absolute;
+    left: 8%;
+    top: 41.8%;
+    transform: translate(-50%, -50%);
+  }
+
+  .footerUl {
+    display: flex;
+    flex-direction: column;
+    left: 45%;
+  }
+
+  .left {
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+  }
+
+  footer {
+    height: 150px;
+  }
+
+  .rightside {
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translate(-50%, -640%);
+    margin-left: 100px;
+  }
+  .leftLi {
+    line-height: 0.5;
+  }
 }
