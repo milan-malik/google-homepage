@@ -196,7 +196,7 @@ a:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .dark {
     position: absolute;
     left: 63%;
@@ -212,13 +212,13 @@ a:hover {
   }
 
   .mic {
-    margin-left: 135px;
+    margin-left: 130px;
   }
 
   .search {
     position: absolute;
     left: 8%;
-    top: 41.8%;
+    top: 41.6%;
     transform: translate(-50%, -50%);
   }
 
@@ -241,9 +241,9 @@ a:hover {
   .rightside {
     position: absolute;
     top: 50%;
-    left: 63%;
-    transform: translate(-50%, -640%);
-    margin-left: 100px;
+    left: 50%;
+    transform: translate(-50%, -650%);
+    margin-left: 170px;
   }
   .leftLi {
     line-height: 0.5;
